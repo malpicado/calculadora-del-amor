@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Montserrat:wght@400;500&display=swap');
+
+:root {
+    --back: rgba(255, 255, 255, 0.95);
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    background: url(corazonVerde.jpg);
+    ç background-size: cover;
+    background-repeat: repeat;
+}
+
+header h1 {
+    color: #ff4893;
+}
+
+header {
+    width: 80%;
+    background: var(--back);
+    color: #333;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+#amor {
+    width: 80%;
+    background: var(--back);
+    padding: 3%;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid #018001;
+    font-size: 110%;
+}
+
+#add{
+    display: inline-block;
+    margin: 30px;
+    font-size: 200%;
+}
+
+#calcular{
+    padding: 1%;
+    width: 20%;
+    font-size: 120%;
+    border-radius: 15px;
+    border: none;
+    background: #F8EE1E;
+    color: #018001;
+    cursor: pointer;
+    box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.8);
+}
+
+#calcular:hover{
+    background: #018001;
+    color: var(--back);
+}
+
+#boton{
+    margin-top: 50px;
+}
+
+footer{
+    width: 80%;
+    padding: 3%;
+    background: var(--back);
+    margin: auto;
+    font-size: 16px;
+    color: #018001;
+}
+
+#output{
+    color: #ff4893;
+    font-size: 200%;
+    height: 50px;
+    line-height: 110%;
+}
+
+.corazon{
+    color: #ff4893;
+}
